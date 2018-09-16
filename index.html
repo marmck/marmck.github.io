@@ -1,10 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Index<title>
+	<title>Marley McKenzie's Personal Website</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/personal.css">
 </head>
+
 <body>
-  <h1>Helo</h1>
+
+	<div id="header" class="jumbotron jumbotron-fluid">
+		<div class="container banner">
+			<div class="head-display">
+				<h2 id="">Welcome</h4>
+				<div class="row align-items-center banner-display">
+				    <div class="col underline">
+				    	<h1 class="name-display">Marley</h1>
+				    </div>
+				    <div class="col-md-auto">
+				    	<img id="icon" src="files/faded sun.svg">
+				    </div>
+				    <div class="col underline">
+				    	<h1 class="name-display">McKenzie</h1>
+				    </div>
+				</div>
+				<h2>A Full-Stack Web Developer</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- Profile container -->
+	<div class="container content">
+		<div>
+			<h2>About</h2>
+			<div class="row">
+				<div class="col-md-5">
+					<img class="prof-pic" src="files/personal_pic.jpg">
+				</div>
+				<div class="col-md-7">
+					<p>
+						My name is Marley McKenzie and I am a recent graduate looking for new opportunities. I have been interning in the tech industry since my senior year of high school exposing me to different types of software development. I have worked extensively on projects from frontend to backend and financial applications to web development. 
+						<br>
+						<br>
+						Currently, I am focusing on full-stack development and creating beautiful yet intuitive apps for the web. 
+					</p>
+				</div>
+				<div class="col-md-5 offset-md-5">
+					<a href="files/Marley_McKenzie_Resume.pdf" target="_blank">
+						<button type="button" class="btn btn-outline-secondary">
+							<i class="fas fa-file"></i>
+							View Resume
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="container content">
+		<h2>Education</h2>
+		<div class="row">
+			<div class="col-md-5">
+				<img class="rice-logo" src="files/RiceLogo.jpg">
+			</div>
+			<div class="col-md-7">
+				<h3>Rice University &bull; B.A. in Computer Science</h3>
+				<h4 class="date-text">August 2014 - May 2018</h4>
+			</div>
+		</div>
+	</div>
+
+	<!-- Skill -->
+	<div class="container content skill">
+		<h2>Skills</h2>
+		<div class="row">
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="Java"><i class="fab fa-java fa-4x"></i></span>
+			</div>
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="Python"><i class="fab fa-python fa-4x"></i></span>
+			</div>
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="HTML5"><i class="fab fa-html5 fa-4x"></i></span>
+			</div>
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="CSS3"><i class="fab fa-css3-alt fa-4x"></i></span>
+			</div>
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="JavaScript"><i class="fab fa-js-square fa-4x"></i></span>
+			</div>
+			<div class="col-md-2">
+				<span class="skill-icon" data-toggle="tooltip" title="Angular"><i class="fab fa-angular fa-4x"></i></span>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+	<div class="contact">
+		<h2 class="underline name-display">Contact</h2>
+		<div>
+			<p>marleymac21@gmail.com<p>
+			<a href="https://www.linkedin.com/in/marley-mckenzie-3a2214a1/">
+			<i class="fab fa-linkedin fa-2x"></i>
+			</a>
+		</div>
+	</div>
+
+	<!-- Enable Tooltips -->
+	<script>
+	$(document).ready(function(){
+	    $('[data-toggle="tooltip"]').tooltip();   
+	});
+	</script>
+
 </body>
-</html>
