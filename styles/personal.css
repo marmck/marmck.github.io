@@ -105,7 +105,6 @@ h2 {
 
 .skill-icon {
 	display: block;
-	width: 100px;
 	height: 100px;
 	line-height: 60px;
 	border-radius: 60px;
@@ -144,7 +143,11 @@ h2 {
 	color: #E0A490;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+	.content {
+		text-align: center;
+	}
+
 	.offset-md-5 .btn {
 		display: block;
 		margin-left: auto;
@@ -153,6 +156,10 @@ h2 {
 
 	.skill-icon {
 		margin: 0.25rem auto;
+	}
+
+	.skill-icon .fab {
+		font-size: 2rem;
 	}
 
 }
