@@ -144,6 +144,10 @@ h2 {
 }
 
 @media (max-width: 767px) {
+	.head-display {
+		top: 10%;
+	}
+
 	.content {
 		text-align: center;
 	}
