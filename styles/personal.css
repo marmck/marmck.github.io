@@ -10,6 +10,8 @@ body {
 	text-align: center;
 	background-image: linear-gradient(#72A3A8, #A8BBB3);
 	margin-bottom: 0;
+	height: 100vh;
+    width: 100vw;
 }
 
 .banner {
